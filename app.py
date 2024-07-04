@@ -2,6 +2,7 @@ import streamlit as st
 import pickle
 import string
 from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
 import nltk
 from nltk.stem.porter import PorterStemmer
 
@@ -42,7 +43,7 @@ html_temp = """
 <div style="background-color:tomato;padding:10px">
 <h2 style="color:white;text-align:center;">Streamlit Email Spam Detector ML App </h2>
 </div>
-<br><br>
+<br>
   """
 st.markdown(html_temp, unsafe_allow_html=True)
 
@@ -61,3 +62,10 @@ if st.button('Inquire'):
         st.header("Spam")
     else:
         st.header("Not Spam")
+
+st.write("\n\n\n\n\n")
+
+st.write("")
+st.write("")
+st.write("")
+st.write("\t\t\t\t\t\tCopy© 2024 Adeel Munir")
