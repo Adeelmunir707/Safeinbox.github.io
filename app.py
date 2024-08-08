@@ -1,10 +1,13 @@
 import streamlit as st
 import pickle
 import string
+from string import punctuation
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import nltk
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('punkt')
 
 ps = PorterStemmer()
 
