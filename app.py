@@ -3,6 +3,7 @@ import pickle
 import string
 from string import punctuation
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 import nltk
 from nltk.stem.porter import PorterStemmer
