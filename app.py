@@ -82,4 +82,6 @@ st.write("\n\n\n\n\n\n\n\n\n")
 st.write("")
 st.write("")
 st.write("")
-st.write("\t\t\t\t\t\tCopy© 2025 Adeel Munir | Made With ❤️ in Pakistan")
+st.markdown("<hr style='border: 2px solid black;'>", unsafe_allow_html=True)
+# Footer content
+st.write("Copy© 2025 Adeel Munir | Made With ❤️ in Pakistan")
