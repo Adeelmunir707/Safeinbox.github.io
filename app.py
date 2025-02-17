@@ -77,9 +77,9 @@ if st.button('Inquire'):
     else:
         st.header("Not Spam")
 
-st.write("\n\n\n\n\n")
+st.write("\n\n\n\n\n\n\n\n\n")
 
 st.write("")
 st.write("")
 st.write("")
-st.write("\t\t\t\t\t\tCopy© 2024 Adeel Munir")
+st.write("\t\t\t\t\t\tCopy© 2025 Adeel Munir | Made With ❤️ in Pakistan")
